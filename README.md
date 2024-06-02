@@ -2,15 +2,23 @@ Digitlcube Tech Task
 
 
 Overview
+
+
 This project demonstrates my ability to create a full-stack application using MongoDB and the Context API for state management.
 
 Features
+
+
 User authentication and authorization
+
 CRUD operations for managing users (admin only)
 
 Technologies Used
+
 Backend: Node.js, Express, MongoDB, Mongoose, Axios
+
 Frontend: React, Context API
+
 
 Installation
 Prerequisites
