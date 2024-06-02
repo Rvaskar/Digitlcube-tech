@@ -1,57 +1,41 @@
-<h1>Digitlcube Tech Task</h1>
-< br / >< br / >
+# Digitlcube Tech Task
 
-Overview < br / >
-  This project demonstrates my ability to create a full-stack application using MongoDB and the Context API for state management.< br / >
-< br / >
-Features < br / >
-  User authentication and authorization < br / >
-  CRUD operations for managing users (admin only)  < br / >
+## Overview 
+This project demonstrates my ability to create a full-stack application using MongoDB and the Context API for state management.
 
-< br / >< br / >
-Technologies Used < br / >
-  Backend: Node.js, Express, MongoDB, Mongoose, Axios < br / >
-  Frontend: React, Context API < br / >
+## Features
+- User authentication and authorization 
+- CRUD operations for managing users (admin only)  
 
-< br / >< br / >
-Installation < br / >
-Prerequisites < br / >
-  Node.js and npm < br / >
+## Technologies Used
+- **Backend**: Node.js, Express, MongoDB, Mongoose, Axios
+- **Frontend**: React, Context API
 
-Install backend dependencies: < br / >
-cd backend < br / >
-  npm install < br / >
-  npm install bcryptjs body-parser cors dotenv express express-validator helmet jsonwebtoken mongoose < br / >
-  
-  < br / >< br / >
+## Installation
 
-Install frontend dependencies: < br / >< br / >
-cd client < br / >
-  npm install < br / >
-  npm i react-router-dom axios < br / >
+### Prerequisites
+- Node.js and npm
 
-< br / >
+### Install Backend Dependencies
+```sh
+cd backend
+npm install
+npm install bcryptjs body-parser cors dotenv express express-validator helmet jsonwebtoken mongoose
+Navigate to the homepage
+User: Sign up or log in
+Admin: Log in and access or control CRUD operations
+API Endpoints:
 
-
-
-Navigate to the homepage < br / >
-  User: Sign up or log in < br / >
-  Admin: Log in and access or control CRUD operations < br / >
-< br / >< br / >
-API Endpoints < br / >
-
-User Endpoints < br / >
-GET /api/user/getuser: Get user details  < br / >
-POST /api/user/createuser: Create a new user  < br / >
-POST /api/user/login: User login   < br / >
-
-Admin Endpoints < br / >
-  GET /api/admin/allusers: Get all users < br / >
-  GET /api/admin/getadmin: Get admin details < br / >
-  POST /api/admin/createadmin: Create a new admin < br / >
-  POST /api/admin/login: Admin login < br / >
-  PUT /api/admin/edituser/:id: Edit a user < br / >
-  DELETE /api/admin/deleteuser/:id: Delete a user < br / >
-
-Contact < br / >
+User Endpoints
+GET /api/user/getuser: Get user details
+POST /api/user/createuser: Create a new user
+POST /api/user/login: User login
+Admin Endpoints
+GET /api/admin/allusers: Get all users
+GET /api/admin/getadmin: Get admin details
+POST /api/admin/createadmin: Create a new admin
+POST /api/admin/login: Admin login
+PUT /api/admin/edituser/:id: Edit a user
+DELETE /api/admin/deleteuser/:id: Delete a user
+Contact:
 For questions or feedback, please reach out to Rutik Vaskar at rutikkvaskar9@gmail.com.
