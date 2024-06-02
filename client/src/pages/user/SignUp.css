@@ -77,29 +77,7 @@ form button {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-/* form>div:nth-child(odd){
-    background: red;
-}
-form>div:nth-child(even){
-    background: rgb(13, 255, 0);
-} */
 
-#nameError {
-  position: absolute;
-  top: 150px;
-}
-#emailError {
-  position: absolute;
-  top: 203px;
-}
-#mobileError {
-  position: absolute;
-  top: 260px;
-}
-#passError {
-  position: absolute;
-  top: 315px;
-}
 
 @media (max-width: 768px) {
   .signup-container {
@@ -131,22 +109,6 @@ form>div:nth-child(even){
     font-size: 0.8rem;
   }
 
-  #nameError {
-    position: absolute;
-    top: 150px;
-  }
-  #emailError {
-    position: absolute;
-    top: 203px;
-  }
-  #mobileError {
-    position: absolute;
-    top: 260px;
-  }
-  #passError {
-    position: absolute;
-    top: 315px;
-  }
 }
 
 .container-login {
