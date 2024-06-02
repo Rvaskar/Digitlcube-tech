@@ -1,45 +1,47 @@
-#Digitlcube Tech Task
-##Overview
+Digitlcube Tech Task
+
+
+Overview
 This project demonstrates my ability to create a full-stack application using MongoDB and the Context API for state management.
 
-##Features
+Features
 User authentication and authorization
 CRUD operations for managing users (admin only)
 
-##Technologies Used
+Technologies Used
 Backend: Node.js, Express, MongoDB, Mongoose, Axios
 Frontend: React, Context API
 
-##Installation
+Installation
 Prerequisites
 Node.js and npm
 MongoDB (installation instructions may vary)
 
-##Install backend dependencies:
+Install backend dependencies:
 
 npm install
-###Install frontend dependencies:
+Install frontend dependencies:
 cd client
 npm install
 
-###Install frontend dependencies:
+Install frontend dependencies:
 cd backend
 npm install bcryptjs body-parser cors dotenv express express-validator helmet jsonwebtoken mongoose
 
-##Usage
+Usage
 To use the application:
 
 Navigate to the homepage
 User: Sign up or log in
 Admin: Log in and access or control CRUD operations
 
-##API Endpoints
-###User Endpoints
+API Endpoints
+User Endpoints
 GET /api/user/getuser: Get user details
 POST /api/user/createuser: Create a new user
 POST /api/user/login: User login
 
-###Admin Endpoints
+Admin Endpoints
 GET /api/admin/allusers: Get all users
 GET /api/admin/getadmin: Get admin details
 POST /api/admin/createadmin: Create a new admin
