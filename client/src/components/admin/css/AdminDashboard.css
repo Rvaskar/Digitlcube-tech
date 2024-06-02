@@ -1,7 +1,7 @@
 .admin-dashboard {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
