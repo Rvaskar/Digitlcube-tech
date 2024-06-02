@@ -17,6 +17,7 @@ This project demonstrates my ability to create a full-stack application using Mo
 - Node.js and npm
 
 ### Install Backend Dependencies
+```sh
 
 cd backend
 npm install
