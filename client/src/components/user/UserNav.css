@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0 2rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 2rem;
+}
+nav .active{
+    border-bottom: 2px solid white;
+}
+nav button{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+.admin-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.admin-dashboard h2,
+.admin-dashboard h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-dashboard ul li {
+  margin-bottom: 5px;
+}
+
+.admin-dashboard ul.recent-activity {
+  padding-left: 20px;
+}
+
+.admin-dashboard ul.recent-activity li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.admin-dashboard ul.recent-activity li:before {
+  content: "\2022";
+  color: #999;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.admin-dashboard ul.recent-activity li span {
+  font-style: italic;
+  color: #888;
+}
