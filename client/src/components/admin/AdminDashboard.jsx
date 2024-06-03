@@ -22,10 +22,10 @@ const AdminDashboard = () => {
           <li>Total Users: {allUsers.length}</li>
         </ul>
       </div>
-      <div>
+{/*       <div>
         <h3>Recent Activity</h3>
-{/*         <p>New user registered: {recentActivityDate}</p> */}
-      </div>
+        <p>New user registered: {recentActivityDate}</p>
+      </div> */}
     </div>
   );
 };
