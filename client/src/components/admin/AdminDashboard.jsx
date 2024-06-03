@@ -9,9 +9,9 @@ const AdminDashboard = () => {
     return <h1>Loading...</h1>;
   }
 
-  const date = allUsers[allUsers.length - 1].date;
-  const formattedDate = new Date(date);
-  const recentActivityDate = `${formattedDate.toLocaleDateString()} ${formattedDate.toLocaleTimeString()}`;
+  // const date = allUsers[allUsers.length - 1].date;
+  // const formattedDate = new Date(date);
+  // const recentActivityDate = `${formattedDate.toLocaleDateString()} ${formattedDate.toLocaleTimeString()}`;
 
   return (
     <div>
@@ -24,7 +24,7 @@ const AdminDashboard = () => {
       </div>
       <div>
         <h3>Recent Activity</h3>
-        <p>New user registered: {recentActivityDate}</p>
+{/*         <p>New user registered: {recentActivityDate}</p> */}
       </div>
     </div>
   );
