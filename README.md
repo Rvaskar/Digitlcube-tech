@@ -28,12 +28,12 @@ Admin: Log in and access or control CRUD operations
 API Endpoints:
 
 User Endpoints
-GET /api/user/getuser: Get user details
+POST /api/user/getuser: Get user details
 POST /api/user/createuser: Create a new user
 POST /api/user/login: User login
 Admin Endpoints
 GET /api/admin/allusers: Get all users
-GET /api/admin/getadmin: Get admin details
+POST /api/admin/getadmin: Get admin details
 POST /api/admin/createadmin: Create a new admin
 POST /api/admin/login: Admin login
 PUT /api/admin/edituser/:id: Edit a user
